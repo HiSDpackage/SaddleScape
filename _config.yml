@@ -69,7 +69,7 @@ include:
 
 exclude:
   - doc/
-  - SaddleScape-1.0/
+  - saddlescape-1.0/
   - README.md
   - requirements.txt
   - gallery/
