@@ -299,11 +299,11 @@ $$
   考虑近似向量 $\mathbb{G}(\boldsymbol{x})\boldsymbol{v}$ ，注意到
 
 $$
--\boldsymbol{F}(\boldsymbol{x}+l\boldsymbol{v})\approx \nabla E(\boldsymbol{x}+l\boldsymbol{v})=\nabla E(\boldsymbol{x})+\mathbb{G}(\boldsymbol{x})l\boldsymbol{v}+o(\lVert l\boldsymbol{v} \rVert ^2)\hspace{1em}(l\to 0)
+-\boldsymbol{F}(\boldsymbol{x}+l\boldsymbol{v})\approx \nabla E(\boldsymbol{x}+l\boldsymbol{v})=\nabla E(\boldsymbol{x})+\mathbb{G}(\boldsymbol{x})l\boldsymbol{v}+\mathcal{O}(\lVert l\boldsymbol{v} \rVert ^2)\hspace{1em}(l\to 0)
 $$
 
 $$
--\boldsymbol{F}(\boldsymbol{x}-l\boldsymbol{v})\approx \nabla E(\boldsymbol{x}-l\boldsymbol{v})=\nabla E(\boldsymbol{x})-\mathbb{G}(\boldsymbol{x})l\boldsymbol{v}+o(\lVert l\boldsymbol{v} \rVert ^2)\hspace{1em}(l\to 0)
+-\boldsymbol{F}(\boldsymbol{x}-l\boldsymbol{v})\approx \nabla E(\boldsymbol{x}-l\boldsymbol{v})=\nabla E(\boldsymbol{x})-\mathbb{G}(\boldsymbol{x})l\boldsymbol{v}+\mathcal{O}(\lVert l\boldsymbol{v} \rVert ^2)\hspace{1em}(l\to 0)
 $$
 
 故可以考虑近似
