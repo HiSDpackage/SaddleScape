@@ -362,11 +362,11 @@ Consider approximating the vector
 $\mathbb{G}(\boldsymbol{x}) \boldsymbol{v}$, noting that
 
 $$
--\boldsymbol{F}(\boldsymbol{x}+l\boldsymbol{v}) \approx \nabla E(\boldsymbol{x}+l\boldsymbol{v}) = \nabla E(\boldsymbol{x}) + \mathbb{G}(\boldsymbol{x}) l \boldsymbol{v} + o(\lVert l \boldsymbol{v} \rVert^2) \quad (l \to 0)
+-\boldsymbol{F}(\boldsymbol{x}+l\boldsymbol{v}) \approx \nabla E(\boldsymbol{x}+l\boldsymbol{v}) = \nabla E(\boldsymbol{x}) + \mathbb{G}(\boldsymbol{x}) l \boldsymbol{v} + \mathcal{O}(\lVert l \boldsymbol{v} \rVert^2) \quad (l \to 0)
 $$
 
 $$
--\boldsymbol{F}(\boldsymbol{x}-l\boldsymbol{v}) \approx \nabla E(\boldsymbol{x}-l\boldsymbol{v}) = \nabla E(\boldsymbol{x}) - \mathbb{G}(\boldsymbol{x}) l \boldsymbol{v} + o(\lVert l \boldsymbol{v} \rVert^2) \quad (l \to 0)
+-\boldsymbol{F}(\boldsymbol{x}-l\boldsymbol{v}) \approx \nabla E(\boldsymbol{x}-l\boldsymbol{v}) = \nabla E(\boldsymbol{x}) - \mathbb{G}(\boldsymbol{x}) l \boldsymbol{v} + \mathcal{O}(\lVert l \boldsymbol{v} \rVert^2) \quad (l \to 0)
 $$
 
 Thus, we can approximate
