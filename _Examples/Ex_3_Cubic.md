@@ -69,7 +69,7 @@ maxiter = 1000 # max iter
 
 
 ```python
-MyLandscape = Landscape(MaxIndex=k, AutoGrad=True, EnergyFunction=energyfunction, InitialPoint=x0, 
+MyLandscape = Landscape(MaxIndex=k, AutoDiff=True, EnergyFunction=energyfunction, InitialPoint=x0, 
                         TimeStep=dt, Acceleration=acceme, EigenCombination='all',
                         EigenMethod='euler', BBStep=False, NesterovChoice=neschoice, NesterovRestart=nesres, 
                         Momentum=mom, MaxIter=maxiter, Verbose=True, ReportInterval=100, 
