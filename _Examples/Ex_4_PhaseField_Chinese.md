@@ -115,7 +115,7 @@ maxiter = 2000 # max iter
 
 
 ```python
-MyLandscape = Landscape(MaxIndex=k, AutoGrad=False, Grad=GradFunc, DimerLength=1e-3, 
+MyLandscape = Landscape(MaxIndex=k, AutoDiff=False, Grad=GradFunc, DimerLength=1e-3, 
 						HessianDimerLength=1e-3, EigenStepSize=1e-7, InitialPoint=x0, 
 						TimeStep=dt, Acceleration=acceme, SearchArea=1e4, SymmetryCheck=False,
 						Tolerance=1e-4, MaxIndexGap=3, EigenCombination='min',
