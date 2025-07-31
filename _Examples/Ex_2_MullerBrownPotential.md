@@ -71,7 +71,7 @@ maxiter = 5000 # max iter
 
 
 ```python
-MyLandscape = Landscape(MaxIndex=k, AutoGrad=True, ExactHessian=True, EnergyFunction=MBP_energyfunc, 
+MyLandscape = Landscape(MaxIndex=k, AutoDiff=True, ExactHessian=True, EnergyFunction=MBP_energyfunc, 
                         InitialPoint=x0, TimeStep=dt, Acceleration=acceme,
                         EigenStepSize=1e-7, MaxIter=maxiter,EigenMethod='euler', Verbose=True, ReportInterval=100)
 # Instantiation
