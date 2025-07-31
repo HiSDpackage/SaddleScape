@@ -264,9 +264,8 @@ def HiSDCheckParam(instance, **kwargs):
 			instance.SymmetryCheck = False
 	else:
 		print(
-			"Parameter 'SymmetryCheck' not provided. Defaulting to True with automatic detection."
+			"Parameter 'SymmetryCheck' not provided. Defaulting to True with automatic detection if available."
 		)
-		instance.SymmetryCheck = True
 
 	# Hessian matrix setup
 	if instance.SymmetryCheck:
